@@ -33,6 +33,9 @@ sources:
   - rtl/soc_ctrl/soc_ctrl_reg_pkg.sv
   - rtl/gpio/gpio_reg_pkg.sv
   # add your design files containing anything but modules (packages) here
+  - rtl/cve2/vlsiffra/adder_33.sv
+  - rtl/cve2/vlsiffra/mult17.v
+  - rtl/cve2/vlsiffra/sg13g2_stdcell.v
 
     # RTL
   - target: not(netlist_yosys)
